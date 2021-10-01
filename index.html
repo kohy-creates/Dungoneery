@@ -1,71 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Dungoneery</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
-		<link rel="shortcut icon" type="image/png" href="website/assets/title.png"/>
-		<audio id="load" src="website/assets/open.ogg" loop="loop"></audio>
-		<style>
-			p {
-				font-size: 135%;font-family: 'MinecraftiaRegular';
-				color: whitesmoke;
-			}
-			@font-face{
-  				font-family: "Illager Rune";
-  				src: url("website/assets/IllagerThin.ttf") format("truetype");
-				}
-		</style>
-		<script>
-			window.onload; {
-				document.getElementById("load").play()
-			}
-		</script>
+   <head>
+      <title>Dungoneery</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+      <link rel="shortcut icon" type="image/png" href="website/assets/logo.png"/>
+      <audio id="load" src="website/assets/open.ogg"></audio>
+      <style>
+         p {
+         font-size: 135%;font-family: 'MinecraftiaRegular';
+         color: whitesmoke;
+         }
+         @font-face{
+         font-family: "Illager Rune";
+         src: url("website/assets/IllagerThin.ttf") format("truetype");
+         }
+         /* The side navigation menu */
+         .sidenav {
+         height: 100%; /* 100% Full-height */
+         width: 0; /* 0 width - change this with JavaScript */
+         position: fixed; /* Stay in place */
+         z-index: 1; /* Stay on top */
+         top: 0;
+         left: 0;
+         background-color: #111; /* Black*/
+         overflow-x: hidden; /* Disable horizontal scroll */
+         padding-top: 60px; /* Place content 60px from the top */
+         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+         }
+         /* The navigation menu links */
+         .sidenav a {
+         padding: 8px 8px 8px 32px;
+         text-decoration: none;
+         font-size: 25px;
+         color: #818181;
+         display: block;
+         transition: 0.3s;
+         }
+         /* When you mouse over the navigation links, change their color */
+         .sidenav a:hover {
+         color: #f1f1f1;
+         }
+         /* Position and style the close button (top right corner) */
+         .sidenav .closebtn {
+         position: absolute;
+         top: 0;
+         right: 25px;
+         font-size: 36px;
+         margin-left: 50px;
+         }
+         /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+         #main {
+         transition: margin-left .5s;
+         padding: 20px;
+         }
+         /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+         @media screen and (max-height: 450px) {
+         .sidenav {padding-top: 15px;}
+         .sidenav a {font-size: 18px;}
+         }
+      </style>
+      <script>
+         window.onload; {
+         	document.getElementById("load").play()
+         }
+         /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+         function openNav() {
+         document.getElementById("mySidenav").style.width = "250px";
+         document.getElementById("main").style.marginLeft = "250px";
+         }
+         
+         /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+         function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+         document.getElementById("main").style.marginLeft = "0";
+         }
+         
+      </script>
+   </head>
+   <body style="background-color: darkgray;">
+    <nav class="navbar navbar-expand-sm bg-dark">
 
-	</head>
-	<body style="background-color: #CFCFCF;">
-		<!--img class="mx-auto d-block card-img-overlay" src="assets/title.png" alt="New York"-->
-		<div class="container-fluid p-5 bg-secondary text-white text-center">
-			<!--br><br><br><br-->
-			<h1 style="font-size: 1000%; color: orange; font-family: 'MinecraftiaRegular';font-weight: normal; font-style: normal;">DUNGONEERY</h1>
+		<div class="container-fluid" style="font-family: 'MinecraftiaRegular';color:whitesmoke;">
+		  <!-- Links -->
+		  <ul class="navbar-nav">
+			<a class="navbar-brand" href="#">
+      			<img src="website/assets/logo.png" alt="Logo" style="width:40px;">
+    			</a>
+         <li class="nav-item">
+            <div class="container mt-3">
+               <a href="#" class="btn btn-success">Link Button</a>
+               <button type="button" class="btn btn-success">Button</button>
+               <input type="button" class="btn btn-success" value="Input Button">
+               <input type="submit" class="btn btn-success" value="Submit Button">
+               <input type="reset" class="btn btn-success" value="Reset Button">
+             </div>
+         </li>
 		</div>
-		<br>
-		<img class="mx-auto d-block" style="width: 40%; height: 40%;" src="https://minecraftskinstealer.com/achievement/9/Big+Mistake/Enter+this+site">
-		<center style="font-size: 200%;font-family: 'MinecraftiaRegular'">The Dungeons-like Minecraft RPG server</center>
-		<br>
-		<hr>
-		<img src="https://api.loohpjames.com/serverbanner.png?ip=130.61.178.210&width=1224" class="mx-auto d-block">
-		<hr>
-		<br>
-		<center style="color: saddlebrown;background-color: #E77115;font-size: 175%;font-family: 'MinecraftiaRegular'"><b>Dungoneery? What is that?</b></center>
-		<div class="mt-4 p-5 bg-secondary text-white rounded">
-			<img src="website/assets/title.png" class="mx-auto d-block img-fluid">
-			<p class="h1 text-center">About Dungoneery</p>
-			<br>
-			<p><b>It all began after FokaStudio got</b> <strong>Minecraft: Dungones</strong></p>
-			<p>FokaStudio <i style="color: #CFCFCF;">(former Owner, Lead Developer, Lead Artists, Brainstormer, etc.)</i> was also obsessed with RPG servers. Wynncraft, or some <em>terrible Minehut RPGs that have completely no plot, meaning other than cash grab and their progression was like 58 hours long...</em> They would do just fine!</p>
-			<p>And then, after turning on <b>MCD</b> just once, his mind was already flooded with ideas...</p>
-			<br>
-			<p><b>Oh, sorry! Might have turned this up to 11 accidentaly...</b></p>
-			<p>So yeah, <b>Dungoneery</b> is basically a mix between <strong>Minecraft: Dungeons</strong> and <strong>Minercaft: Java Edition <i style="color: #CFCFCF;">(with partial Bedrock support)</i></strong></p>
-		</div>
-		<div class="mt-4 p-5 bg-secondary text-white rounded">
-			<p class="h1 text-center text-break">Example Features</p>
-			<br>
-			<p>Lorem ipsum...</p>
-		</div>
-		<div class="mt-4 p-5 bg-secondary text-white rounded">
-			<p class="h1 text-center">Gallery</p>
-			<br>
-			<p>Lorem ipsum...</p>
-		</div>
-		<div class="mt-4 p-5 bg-secondary text-white rounded">
-			<p class="h1 text-center">Staff Team</p>
-			<br>
-			<p>Lorem ipsum...</p>
-		</div>
-	</body>
+	  
+	  </nav>  
+	<!--img class="mx-auto d-block card-img-overlay" src="assets/title.png" alt="New York"-->
+      <div class="container-fluid p-5 bg-secondary text-white text-center">
+         <!--br><br><br><br-->
+         <h1 style="font-size: 1000%; color: orange; font-family: 'MinecraftiaRegular';font-weight: normal; font-style: normal;">DUNGONEERY</h1>
+      </div>
+      <br>
+      <img class="mx-auto d-block" style="width: 40%; height: 40%;" src="https://minecraftskinstealer.com/achievement/9/Big+Mistake/Enter+this+site">
+      <center style="font-size: 200%;font-family: 'MinecraftiaRegular'">The Dungeons-like Minecraft RPG server</center>
+      <br>
+      <hr>
+      <img src="https://api.loohpjames.com/serverbanner.png?ip=130.61.178.210&width=1224" class="mx-auto d-block shadow-lg">
+      <hr>
+      <br>
+      <center style="color: saddlebrown;background-color: #E77115;font-size: 175%;font-family: 'MinecraftiaRegular'"><b>Dungoneery? What is that?</b></center>
+      <div class="mt-4 p-5 bg-secondary text-white rounded">
+         <img src="website/assets/title.png" class="mx-auto d-block img-fluid">
+         <p class="h1 text-center">About Dungoneery</p>
+         <br>
+         <p><b>It all began after FokaStudio got</b> <strong>Minecraft: Dungones</strong></p>
+         <p>FokaStudio <i style="color: #CFCFCF;">(former Owner, Lead Developer, Lead Artists, Brainstormer, etc.)</i> was also obsessed with RPG servers. Wynncraft, or some <em>terrible Minehut RPGs that have completely no plot, meaning other than cash grab and their progression was like 58 hours long...</em> They would do just fine!</p>
+         <p>And then, after turning on <b>MCD</b> just once, his mind was already flooded with ideas...</p>
+         <br>
+         <p><b>Oh, sorry! Might have turned this up to 11 accidentaly...</b></p>
+         <p>So yeah, <b>Dungoneery</b> is basically a mix between <strong>Minecraft: Dungeons</strong> and <strong>Minercaft: Java Edition <i style="color: #CFCFCF;">(with partial Bedrock support)</i></strong></p>
+         <br>
+         <p><b>IT INCLUDES <i>(but is not limited to)</i>:</b></p>
+         <table class="table " style="font-size: 170%; font-family: 'MinecraftiaRegular';">
+            <tbody>
+               <tr>
+                  <td><b>Full new map with many areas, secrets and characters!</b></td>
+               </tr>
+               <tr>
+                  <td>New mobs, many ported from <i>Minecraft: Dungeons</i></td>
+               </tr>
+               <tr>
+                  <td><strong>Unique plot</strong> that will make the server feel even more live that it actually is!</td>
+               </tr>
+               <tr>
+                  <td><i>Skill progression, new gear, artifacts, etc., etc...</i></td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div class="mt-4 p-5 bg-secondary text-white rounded">
+         <p class="h1 text-center text-break">Example Features</p>
+         <br>
+         <p>Lorem ipsum...</p>
+      </div>
+      <div class="mt-4 p-5 bg-secondary text-white rounded">
+         <p class="h1 text-center">Gallery</p>
+         <br>
+         <p>Lorem ipsum...</p>
+      </div>
+      <div class="mt-4 p-5 bg-secondary text-white rounded">
+         <p class="h1 text-center">Staff Team</p>
+         <br>
+         <p>Lorem ipsum...</p>
+      </div>
+      <div id="mySidenav" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <a href="#">About</a>
+         <a href="#">Services</a>
+         <a href="#">Clients</a>
+         <a href="#">Contact</a>
+      </div>
+      <!-- Use any element to open the sidenav -->
+	  <span onclick="openNav()">open</span>
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+   </body>
 </html>
