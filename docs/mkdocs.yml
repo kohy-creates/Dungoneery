@@ -2,7 +2,9 @@ site_name: Dungoneery Docs
 site_url: https://example.com/
 nav:
     - Home: index.md
-    - About: about.md
+    - Basic Info: info.md
+    - Mechanics:
+      - Statistics: stats.md
 theme:
   name: material
   
@@ -13,22 +15,20 @@ theme:
       primary: red
       accent: orange
   
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - rust
   favicon: images/logo.png
   logo: images/logo.png
 
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: http://discordsrv.com/discord
-      name: DiscordSRV Discord Server
+      link: https://fokastudio.github.io/Dungoneery/discord.html
+      name: Dungoneery Discord Server
 
-repo_url: https://github.com/DiscordSRV/Documentation
-repo_name: Documentation
+repo_url: https://github.com/FokaStudio/Dungoneery
+repo_name: Dungoneery
 
 markdown_extensions:
   - extra
   - admonition
+  - toc:
+      permalink: "#"
