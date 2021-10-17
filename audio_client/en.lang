@@ -1,0 +1,61 @@
+lang.name=English
+
+lang.detectedAs=We changed your language to %langName, do you want to keep it like this?
+lang.keep=Keep %langName
+lang.toEn=Switch to English
+
+ui.loading=Loading...
+ui.logout=Log out
+
+landing.title=Welcome!
+landing.clickBelow=Welcome %player! click anywhere on this page to activate your session
+landing.connectButton=Click anywhere to connect
+
+main.title=Welcome back,
+main.content=<div>Keep this tab open in the background since your music and sound effects will be streamed through this window. You can come back any time to change your volume, but you can also do this in game through <b>/volume</b></div>
+main.volume=Music Volume
+main.openHue=Open Philips Hue configuration
+
+kicked.title=Lost connection
+kicked.message=The audio client is only available for players who are online in the server.<br/>Use <small><b>/audio</b></small> to obtain a URL
+
+badlogin.title=Are you lost?
+badlogin.content=The audio client is only available for players who are online in the server.<br/>Use <small><b>/audio</b></small> to obtain a URL
+
+vc.notice=Notice
+vc.startingPopupTitle=Logging into voice chat...
+vc.startingPopup=Please wait while we get you setup with a voice server.. hold on tight, this shouldn't take too long.
+vc.reloadingPopupTitle=Reloading voice system!
+vc.reloadingPopup=Please wait while voice chat gets restarted to apply your new settings.. This shouldn't take long
+vc.updatingMicPopupTitle=Updating microphone!
+vc.updatingMicPopup=Please wait while voice chat gets restarted with your new microphone.. This shouldn't take long
+vc.micErrorPopupTitle=Microphone error
+vc.micErrorPopup=Something went wrong while trying to access your microphone. Please press "allow" when your browser asks you for microphone permissions, or visit the wiki for more information.
+vc.disabled=VoiceChat has temporarily been disabled by %serverName
+vc.enable=Enable
+vc.enableThe=Enable
+vc.vc=Voice Chat
+vc.onboarding=This server has support for Proximity Voice Chat, which allows you to talk with players within a %range radius. Would you like to enable this feature and give access to your microphone?
+vc.dismiss=Dismiss
+vc.settings=Settings
+vc.muteUnmute=Mute/Unmute microphone
+vc.spatialStereo=Spatial/Stereo audio
+vc.speaking=Speaking indicator
+vc.sensitivity=Microphone Sensitivity
+vc.auto=Automatic adjustments
+vc.selectMic=Select your microphone
+vc.people=People within
+vc.voiceRange=Voice Range
+vc.empty=There is no one around sadly.. Not to worry though! I'll be your happy imaginary friend
+
+hue.hue=Philips Hue
+hue.link=Click here to connect to your hue bridge
+hue.preparing=Preparing setup...
+hue.loggingIn=Logging in..
+hue.linking=Press the link button on your hue bridge within %sec seconds to connect.
+hue.connectedTo=You are now connected with your Hue Bridge:
+hue.light1=Light one
+hue.light2=Light two
+hue.light3=Light three
+hue.connected=You may now link up to three lights that the server will control. Usually from right to left.
+hue.close=Close
