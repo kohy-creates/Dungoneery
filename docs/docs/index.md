@@ -1,17 +1,37 @@
-# Welcome to MkDocs
+# Welcome to Dungoneery Docs!
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
-## Commands
+[^1]: This is the first footnote.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[^bignote]: Here's one with multiple paragraphs and code.
 
-## Project layout
+    Indent paragraphs to include them in the footnote.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+
+Gone camping! :tent: Be back soon.
+
+That is so funny! :joy:
+
+!!! note
+    You should note that the title will be automatically capitalized.
+
+!!! danger ""
+    You should note that the title will be automatically capitalized.
+
+!!! important
+    You should note that the title will be automatically capitalized.

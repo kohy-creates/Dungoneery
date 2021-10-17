@@ -1,14 +1,13 @@
-site_name: My Docs
+site_name: Dungoneery Docs
 site_url: https://example.com/
 nav:
     - Home: index.md
     - About: about.md
 theme:
   name: material
-
+  
   include_search_page: false
   search_index_only: true
-
   palette:
     - scheme: slate
       primary: red
@@ -18,3 +17,18 @@ theme:
   hljs_languages:
     - yaml
     - rust
+  favicon: images/logo.png
+  logo: images/logo.png
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: http://discordsrv.com/discord
+      name: DiscordSRV Discord Server
+
+repo_url: https://github.com/DiscordSRV/Documentation
+repo_name: Documentation
+
+markdown_extensions:
+  - extra
+  - admonition
