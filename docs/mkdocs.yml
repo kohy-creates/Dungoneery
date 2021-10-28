@@ -1,19 +1,23 @@
 site_name: Dungoneery Docs
-site_url: https://example.com/
+site_url: https://site.dungoneery.tk
 nav:
     - Home: index.md
     - Basic Info: info.md
     - Mechanics:
       - Statistics: stats.md
+      - Items: items.md
 theme:
   name: material
   
   include_search_page: false
   search_index_only: true
+  
+  features: []
+
   palette:
-    - scheme: slate
-      primary: red
-      accent: orange
+    scheme: slate
+    primary: red
+    accent: orange
   
   favicon: images/logo.png
   logo: images/logo.png
@@ -21,14 +25,20 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: https://fokastudio.github.io/Dungoneery/discord.html
+      link: https://site.dungoneery.tk/discord.html
       name: Dungoneery Discord Server
 
 repo_url: https://github.com/FokaStudio/Dungoneery
-repo_name: Dungoneery
+repo_name: Dungoneery on Github
 
 markdown_extensions:
   - extra
   - admonition
+  
   - toc:
       permalink: "#"
+
+copyright: Copyright &copy; 2021 - 2021 Filip 'FokaStudio' Raczkowski
+
+extra:
+  generator: false

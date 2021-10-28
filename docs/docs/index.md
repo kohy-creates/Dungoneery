@@ -4,7 +4,7 @@ summary: Intro to the docs
 authors:
     - FokaStudio
 ---
-![Dungoneery Server]([https://api.loohpjames.com/serverbanner.png?ip=138.3.246.33&width=1024](https://api.loohpjames.com/serverbanner.png?ip=138.3.246.33&width=1024))
+![Dungoneery Server]([https://api.loohpjames.com/serverbanner.png?ip=138.3.246.33&width=1024](https://site.dungoneery.tk/))
 
 # Welcome to Dungoneery Docs!
 The server can get pretty complicated at some point, so I have created those beautiful dark mode docs for you!
