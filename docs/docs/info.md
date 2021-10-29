@@ -3,6 +3,7 @@ title: Basic Info
 summary: A brief description of Dungoneery and its mechanics.
 authors:
     - FokaStudio
+boost: 1
 ---
 # Base Plot Concept
 
@@ -36,3 +37,5 @@ The things that have changed are:
     - Last 2 slots are special slots for [**Gadget Star**](items.md#gadgets) and an equipable gadgets of your choice.
     - Second Hand slot is reserved for [**Trinkets**](items.md#trinkets).
     - **All Armor slots are free to use for both cosmetics and actual armor.**
+
+<div id="disqus_thread"></div><script> (function() { var d = document, s = d.createElement('script'); s.src = 'https://dungoneery.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })();</script><noscript>Please enable JavaScript to view the comment section.</a></noscript>
