@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		
+		<!-- Website Title -->
 		<title>Dungoneery</title>
+		
+		<!-- Encoding -->
 		<meta charset="utf-8">
+		
+		<!-- Bootstrap -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+		
+		<!-- Additional CSS -->
 		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+		<link rel="stylesheet" href="website/css/base.css"/>
+		<link rel="stylesheet" href="website/css/fonts.css"/>
+		
+		<!-- Site icon-->
 		<link rel="shortcut icon" type="image/png" href="website/assets/logo.png"/>
-		<link rel="stylesheet" href="website/css/index.css"/>
-		<script src="website/js/index.js"></script>
-		<style>
-			@font-face{
-    			font-family: IllagerRune;
-    			src: url("website/assets/IllagerThin.ttf") format("truetype");
-			}
-		</style>
+
+		<!-- Additional JavaScript -->
+		<script src="website/js/base.js"></script>
+		<!-- Nolt Library -->
+		<script async src="https://cdn.nolt.io/widgets.js"></script>
+		<script>
+			window.noltQueue=window.noltQueue||[];function nolt(){noltQueue.push(arguments)}
+		</script>
+
 	</head>
+
 	<body style="background-color: darkgray;">
+		
+		<!-- Navigation Bar -->
 		<nav class="navbar navbar-expand-sm bg-dark">
 			<div class="container-fluid" style="font-family: MinecraftiaRegular;color:whitesmoke;">
 				<!-- Links -->
@@ -27,7 +43,7 @@
 				</a>
 				<li class="nav-item">
 					<div class="container mt-3">
-						<button type="button" onclick="openNav()" class="btn btn-success">Menu</button>
+						<button type="button" onclick="openSidenav()" class="btn btn-success">Menu</button>
 						<a button type="button" href="https://github.com/FokaStudio/Dungoneery" target="_blank" class="btn btn-success">GitHub</a>
 						<a button type="button" href="website/discord.html" target="_blank" class="btn btn-success">Discord</a>
 						<a button type="button" href="https://patreon.com/FokaStudio" target="_blank" class="btn btn-success">Patreon</a>
@@ -39,20 +55,39 @@
 				</li>
 			</div>
 		</nav>
+		
+		<!-- Giant title as an image (unused) -->
 		<!--img class="mx-auto d-block card-img-overlay" src="assets/title.png" alt="New York"-->
+		
+		<!-- Giant title as a text -->
 		<div class="container-fluid p-5 bg-secondary text-white text-center">
-			<!--br><br><br><br-->
+			<!--br><br><br><br>-->
 			<h1 style="font-size: 1000%; color: orange; font-family: MinecraftiaRegular;font-weight: normal; font-style: normal;">DUNGONEERY</h1>
 		</div>
+		
 		<br>
+		
+		<!-- Achievement -->
 		<img class="mx-auto d-block" style="width: 40%; height: 40%;" src="https://minecraftskinstealer.com/achievement/9/Big+Mistake/Enter+this+site">
+		
+		<!-- Subtitle -->
+		<!-- Will update to use CSS 'align' later -->
 		<center style="font-size: 200%;font-family: MinecraftiaRegular">The Dungeons-like Minecraft RPG server</center>
+		
 		<br>
 		<hr>
-		<img src="https://api.loohpjames.com/serverbanner.png?ip=130.61.178.210&width=1224" class="mx-auto d-block shadow-lg">
+		
+		<!-- Images from Web and Embeds-->
+		<img src="https://api.loohpjames.com/serverbanner.png?ip=130.61.178.210&width=1224" class="mx-auto d-block shadow-lg"> <!-- Loohpjames' API for dynamic server cards -->
+		<img src="https://namemc.com/server/dungoneery.xyz" class="mx-auto d-block shadow-lg"> <!-- NameMC -->
+		
 		<hr>
 		<br>
+		
+		<!-- Server Description -->
 		<center style="color: saddlebrown;background-color: #E77115;font-size: 175%;font-family: MinecraftiaRegular"><b>Dungoneery? What is that?</b></center>
+		
+		<!-- How it all began -->
 		<div class="mt-4 p-5 bg-secondary text-white rounded">
 			<img src="website/assets/title.png" class="mx-auto d-block img-fluid">
 			<p class="h1 text-center">About Dungoneery</p>
@@ -74,7 +109,7 @@
 						<td>New mobs, many ported from <i>Minecraft: Dungeons</i></td>
 					</tr>
 					<tr>
-						<td><strong>Unique plot</strong> that will make the server feel even more live that it actually is!</td>
+						<td><strong>Unique plot</strong> that will make the server feel even more live <em>than it actually is!</em></td>
 					</tr>
 					<tr>
 						<td><i>Skill progression, new gear, artifacts, etc., etc...</i></td>
@@ -82,27 +117,41 @@
 				</tbody>
 			</table>
 		</div>
+		
+		<!-- Example features-->
 		<div class="mt-4 p-5 bg-secondary text-white rounded">
 			<p class="h1 text-center text-break">Example Features</p>
 			<br>
 			<p>Lorem ipsum...</p>
 		</div>
+		
+		<!-- Reference to image gallery-->
 		<div class="mt-4 p-5 bg-secondary text-white rounded">
 			<p class="h1 text-center">Gallery</p>
 			<br>
 			<p>Lorem ipsum...</p>
 		</div>
+		
+		<!-- Reference to Staff Team list -->
 		<div class="mt-4 p-5 bg-secondary text-white rounded">
 			<p class="h1 text-center">Staff Team</p>
 			<br>
 			<p>Lorem ipsum...</p>
 		</div>
-		<div id="mySidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<a href="#">About</a>
-			<a href="#">Services</a>
-			<a href="#">Clients</a>
-			<a href="#">Contact</a>
+
+		<!-- Respnsible for Side Navigation -->
+		<div id="sidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeSidenav()">&times;</a>
+			<a href="website/about.html">📜About</a>
+			<a href="https://github.com/FokaStudio/Dungoneery/">🐛Bug Reports</a>
+			<a href="#" class="nolt">💡Give Feedback</a>
+			<a href="website/gallery.html">🔲Image Gallery</a>
+			<a href="website/discord.html">💬Discord</a>
+			<a href="website/staff.html">👑Staff Team</a>
+			<a href="https://dairy.dungoneery.xyz">💻Dev Dairies</a>
+			<a href="website/contact.html">❓Contact</a>
 		</div>
+
 	</body>
-</html>
+
+	</html>

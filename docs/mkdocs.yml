@@ -1,5 +1,5 @@
 site_name: Dungoneery Docs
-site_url: https://site.dungoneery.tk
+site_url: https://docs.dungoneery.xyz
 nav:
     - Home: index.md
     - Basic Info: info.md
@@ -12,7 +12,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: https://site.dungoneery.tk/discord.html
+      link: https://site.dungoneery.xyz/discord.html
       name: Dungoneery Discord Server
 
 repo_url: https://github.com/FokaStudio/Dungoneery
@@ -85,8 +85,8 @@ theme:
     primary: red
     accent: orange
   
-  favicon: images/logo.png
-  logo: images/logo.png
+  favicon: assets/logo.png
+  logo: assets/logo.png
 
   icon:
     repo: fontawesome/solid/trash
