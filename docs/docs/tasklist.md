@@ -16,20 +16,21 @@ boost: 15
     - [ ] **OpenAudioMC**
         - [ ] API
         - [x] Music
-        - [ ] Own Player
+        - [x] Own Player
     
     - [ ] **Stats**
     
-    - [ ] **Tablist**
+    - [x] **Tablist**
     
     - [ ] **Chat formatting**
     
     - [ ] **Internal APIs**
-        - [x] ParticleAPI
-        - [x] ColorAPI *(ColorUtils)*
-        - [ ] WandAPI
-        - [ ] MobAPI
-        - [ ] SKill
+        - [x] Particle API
+        - [x] Color API *(ColorUtils)*
+        - [x] Wand API
+        - [ ] Mob API
+        - [x] SKill
+        - [ ] Item API
     
     - [ ] **Ranks**
         
@@ -120,10 +121,10 @@ boost: 15
     - [ ] Potions
     - [ ] Consumables
 
-- [ ] **Cosmetics**
+- [x] **Cosmetics**
     - [x] Pandora's Vault
     - [x] Capes
-    - [ ] Pets
+    - [x] Pets
   
 - [ ] **Other**
     - [ ] Website
