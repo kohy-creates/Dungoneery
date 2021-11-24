@@ -1,5 +1,5 @@
 site_name: Dungoneery Docs
-site_url: https://docs.dungoneery.xyz
+site_url: https://wiki.dungoneery.xyz/
 nav:
     - Home: index.md
     - Basic Info: info.md
